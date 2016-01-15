@@ -9,6 +9,9 @@ Bash script auto upgrade Mifosx follow this instruction https://github.com/openM
 
 example: `sh upgrademifosx.sh "16.01.1"`
 
+or want it simpler? just copy and run the command bellow
+`apt-get install wget -y;wget https://raw.githubusercontent.com/sonpython/MifosX_auto_upgrade_bash_script/master/upgrademifosx.sh; sh upgrademifosx.sh "16.01.1"`
+
 # What does it do
 
 $1 = the version param you input when run the 
