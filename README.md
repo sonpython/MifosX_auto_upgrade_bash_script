@@ -11,7 +11,7 @@ example: `sh upgrademifosx.sh "16.01.1"`
 
 or want it simpler? just copy and run the command bellow
 
-`apt-get install wget -y;wget https://raw.githubusercontent.com/sonpython/MifosX_auto_upgrade_bash_script/master/upgrademifosx.sh; sh upgrademifosx.sh "16.01.1"`
+`sudo su;apt-get install wget -y;wget https://raw.githubusercontent.com/sonpython/MifosX_auto_upgrade_bash_script/master/upgrademifosx.sh; sh upgrademifosx.sh "16.01.1"`
 
 # What does it do
 
