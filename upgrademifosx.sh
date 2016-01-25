@@ -1,6 +1,6 @@
 #!/bin/bash
 echo ===================== stop the tomcat7 server =====================
-service tomcat7 restart
+service tomcat7 stop
 echo ===================== Download MifosX release $1 =====================
 wget http://downloads.sourceforge.net/project/mifos/Mifos%20X/mifosplatform-$1.RELEASE.zip
 echo ===================== unzip new release $1 =====================
